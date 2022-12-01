@@ -39,8 +39,8 @@ function runClock() {
 runClock();
 setInterval(runClock, 1000);
 
-// hours = 2;
-// minutes = 45;
+// hours = 11;
+// minutes = 00;
 // hoursun = hours + minutes / 60;
 
 let index = 0;
@@ -114,7 +114,7 @@ function setCloud(x) {
   }
 }
 function setHeavyCloud(x) {
-  if (parseInt(x) >= 20) {
+  if (parseInt(x) >= 30) {
     document.getElementById("nuage").style.opacity = "1";
     document.getElementById("sun").style.top = "-30%";
     document.getElementById("lune").style.top = "-30%";
