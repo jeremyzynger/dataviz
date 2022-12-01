@@ -1,7 +1,6 @@
 # Nom:
 
-page Météo
-Paysage qui change en fonction de la météo et de l'heure.
+My Météo
 
 ## Languages utilisés:
 
