@@ -94,9 +94,6 @@ function mvtMoon(x) {
   }
 }
 
-setInterval(mvtSun(hoursun), 10000);
-setInterval(mvtMoon(hoursun), 10000);
-
 function changeToNuit(x) {
   if (x < 6 || x > 18) {
     document.getElementById("jour").style.background = "rgb(15,8,60,1)";
